@@ -47,3 +47,37 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+body {
+  background-color: #111;
+  color: white;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 90vmin;
+  height: 90vmin;
+  margin: auto;
+  border: 5px solid limegreen;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vmin;
+}
+
+.white {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.black {
+  background-color: #2e7d32; /* weed green */
+  color: #fff;
+}
